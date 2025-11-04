@@ -43,11 +43,7 @@ public class Methods {
 
     // Проверка позитивности числа
     public static boolean isPositive(int x) {
-        if (x > 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return x>0;
     }
 
     //Проверка двухзначности числа
