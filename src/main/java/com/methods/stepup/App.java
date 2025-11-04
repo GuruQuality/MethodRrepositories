@@ -61,5 +61,8 @@ public class App {
         System.out.println("Делится ли нацело 6/3?" + " " + Methods.isDivisor(6,3));
         System.out.println("Делится ли нацело 2/15?" + " " + Methods.isDivisor(2,15));
         System.out.println();
+        //Проверка равности трех чисел
+        System.out.println("Числа 3,3,3 равны ?" + " " + Methods.isEqual(3,3,3));
+        System.out.println("Числа 2,15,2 равны ?" + " " + Methods.isEqual(2,15,2));
     }
 }

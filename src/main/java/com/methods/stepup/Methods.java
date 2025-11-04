@@ -83,9 +83,13 @@ public class Methods {
             return false;
         }
     }
-    //Проверка остатока от деления
+    //Проверка остатка от деления
     public static boolean isDivisor (int a, int b){
         return a%b==0;//Проверяем остаток от деления
+    }
+    // Проверка равности трех чисел
+    public static boolean isEqual (int a, int b, int c){
+       return a==b && a==c;
     }
 }
 
