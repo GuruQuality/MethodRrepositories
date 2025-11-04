@@ -66,7 +66,12 @@ public class App {
         System.out.println("Числа 3,3,3 равны ?" + " " + Methods.isEqual(3,3,3));
         System.out.println("Числа 2,15,2 равны ?" + " " + Methods.isEqual(2,15,2));
         System.out.println();
-        */
+        //10 задание Сложение остатков деления 5 чисел
         Methods.lastNumbersSum();
+        System.out.println();
+        */
+        //1 задание Вычесление модуля
+        int x = 5;
+        System.out.println(" x = " + x + "\nрезультат " + Methods.abs(x));
     }
 }

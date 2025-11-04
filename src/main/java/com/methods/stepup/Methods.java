@@ -112,6 +112,10 @@ public class Methods {
         System.out.println("Итог " + sum);
 
     }
+    //Вычесление модуля
+    public static int abs(int x){
+        return x<0 ? x*-1 : x;
+    }
 }
 
 
