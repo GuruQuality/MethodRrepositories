@@ -1,5 +1,4 @@
 package com.methods.stepup;
-
 public class App {
     public static void main(String[] args) {
         /*
@@ -68,7 +67,6 @@ public class App {
         Methods.lastNumbersSum();
         System.out.println();
         */
-
-        Chapper2Lesson7.run();
+        Chapper2Lesson8.run();
     }
 }
