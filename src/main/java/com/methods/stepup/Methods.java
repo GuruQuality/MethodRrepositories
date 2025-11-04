@@ -66,16 +66,28 @@ public class Methods {
             }
         }
     }
+
     //Проверка регистра
     public static boolean isUpperCase(char x) {
-        if (x >='A' && x <='Z') {
+        if (x >= 'A' && x <= 'Z') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    //Проверка диапазона
+    public static boolean isInRange(int a, int b, int num) {
+        if (a > b && num >= b && num <= a) {
+            return true;
+        }
+        if (b > a && num >= a && num <= b) {
             return true;
         } else {
             return false;
         }
     }
 }
-
 
 
 
