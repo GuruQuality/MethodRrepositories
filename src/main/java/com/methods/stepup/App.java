@@ -1,21 +1,18 @@
 package com.methods.stepup;
-public class App
-{
-    public static void main( String[] args )
-    {
+
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+        //1 Задание - Возрат дробной части
         double result = Methods.fraction(5.3);
-        System.out.println("Дробная часть 5.3: " + result);
+        System.out.println("Дробная часть 5.3: " + Math.round(result * 1000.0) / 1000.0);
+        //2 Задание - Сумма 2-х последних знаков числа
+        int number=18;
+        if (number < 10) {
+            System.out.print("Число должно иметь две цифры");
+        } else {
+            System.out.println("Сумма последних двух чисел: " + Methods.sumLastNum(number));
+        }
     }
-    /*Вызов метода из другого класса - пример
-        public static void SuperHello (String name) {
-        char ch=name.charAt(0);
-        ch= Methods.toLowerCase(ch);
-        name=ch+name.substring(1);
-        System.out.println("hello"+ name + "!");
-    }
-     */
-
-
-
-
 }
