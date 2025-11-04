@@ -40,7 +40,7 @@ public class App {
         System.out.println();
         //6 задание Диапазона
         System.out.println("Проверка что число входит в диапазон чисел");
-        //Scanner (тип) данных scanner (название переменной) = new Scanner(из какоког класса значение берем)(System.in);
+        //7 задание Scanner (тип) данных scanner (название переменной) = new Scanner(из какоког класса значение берем)(System.in);
         Scanner leftBorder = new Scanner(System.in);
         System.out.print("Введите число левой границы (число): ");
         // Читаем число и сохраняем его в переменную - nextInt (метод)- ожидает ввод пользователя,
@@ -56,6 +56,10 @@ public class App {
         // Читаем число и сохраняем его в переменную - nextInt (метод)- ожидает ввод пользователя,
         int numInt = num.nextInt();
         System.out.println("Ответ: " + Methods.isInRange(lefBordInt,rightBorderInt,numInt));
-
+        System.out.println();
+        //8 задание Проверка остатка от деления
+        System.out.println("Делится ли нацело 6/3?" + " " + Methods.isDivisor(6,3));
+        System.out.println("Делится ли нацело 2/15?" + " " + Methods.isDivisor(2,15));
+        System.out.println();
     }
 }

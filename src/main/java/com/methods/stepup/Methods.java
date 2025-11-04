@@ -83,6 +83,10 @@ public class Methods {
             return false;
         }
     }
+    //Проверка остатока от деления
+    public static boolean isDivisor (int a, int b){
+        return a%b==0;//Проверяем остаток от деления
+    }
 }
 
 
