@@ -32,5 +32,11 @@ public class App {
         System.out.println("x=2, результат: " + Methods.is2Digits(2));
         System.out.println("x=12, результат: " + Methods.is2Digits(12));
         System.out.println("x=100, результат: " + Methods.is2Digits(100));
+        System.out.println();
+        //6 задание Проверка регистра
+        System.out.println("Проверка регистра");
+        System.out.println("x=’D’, результат:" + Methods.isUpperCase('D'));
+        System.out.println("x=’q’, результат:" + Methods.isUpperCase('q'));
+        System.out.println();
     }
 }

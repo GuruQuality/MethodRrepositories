@@ -56,17 +56,26 @@ public class Methods {
             System.out.println("Число не положительное");
             return false;
         } else {
-            if (x<10){
+            if (x < 10) {
                 return false;
             }
-            if (x<100) {
+            if (x < 100) {
                 return true;
             } else {
                 return false;
             }
         }
     }
+    //Проверка регистра
+    public static boolean isUpperCase(char x) {
+        if (x >='A' && x <='Z') {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
+
 
 
 
