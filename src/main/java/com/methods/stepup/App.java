@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+        /*
         //1 Задание - Возрат дробной части
         double result = Methods.fraction(5.3);
         System.out.println("Дробная часть 5.3: " + Math.round(result * 1000.0) / 1000.0);
@@ -61,8 +62,11 @@ public class App {
         System.out.println("Делится ли нацело 6/3?" + " " + Methods.isDivisor(6,3));
         System.out.println("Делится ли нацело 2/15?" + " " + Methods.isDivisor(2,15));
         System.out.println();
-        //Проверка равности трех чисел
+        //9 задание Проверка равности трех чисел
         System.out.println("Числа 3,3,3 равны ?" + " " + Methods.isEqual(3,3,3));
         System.out.println("Числа 2,15,2 равны ?" + " " + Methods.isEqual(2,15,2));
+        System.out.println();
+        */
+        Methods.lastNumbersSum();
     }
 }
