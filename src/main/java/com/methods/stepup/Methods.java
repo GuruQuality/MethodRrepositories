@@ -39,6 +39,14 @@ public class Methods {
     public static int charToNum(char x){
         return x-48;
     }
+    // Проверка позитивности числа
+    public static boolean isPositive(int x){
+        if (x>0) {
+            return true;
+        }else {
+            return false;
+        }
+    }
 }
 
 

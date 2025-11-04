@@ -14,8 +14,12 @@ public class App {
         } else {
             System.out.println("Сумма последних двух чисел: " + Methods.sumLastNum(number));
         }
-        //3 дадание Преобразовние символ-цифры в соответствующее ей число
+        //3 задание Преобразовние символ-цифры в соответствующее ей число
         int symbol=Methods.charToNum('3');
         System.out.println("Результат преобразования числа '3': " + symbol);
+        //4 задание Проверка позитивности числа
+        System.out.println("x=0, результат: " + Methods.isPositive(0));
+        System.out.println("x=3, результат: " + Methods.isPositive(3));
+        System.out.println("x=-5, результат: " + Methods.isPositive(-5));
     }
 }
