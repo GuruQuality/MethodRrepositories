@@ -69,6 +69,6 @@ public class App {
         System.out.println();
         */
 
-        Chapper2Lesson1.run();
+        Chapper2Lesson2.run();
     }
 }
