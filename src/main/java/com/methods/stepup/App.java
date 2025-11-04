@@ -1,7 +1,5 @@
 package com.methods.stepup;
 
-import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) {
         /*
@@ -70,8 +68,7 @@ public class App {
         Methods.lastNumbersSum();
         System.out.println();
         */
-        //1 задание Вычесление модуля
-        int x = 5;
-        System.out.println(" x = " + x + "\nрезультат " + Methods.abs(x));
+
+        Chapper2Lesson1.run();
     }
 }
