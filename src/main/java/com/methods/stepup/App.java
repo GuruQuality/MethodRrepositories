@@ -14,5 +14,8 @@ public class App {
         } else {
             System.out.println("Сумма последних двух чисел: " + Methods.sumLastNum(number));
         }
+        //3 дадание Преобразовние символ-цифры в соответствующее ей число
+        int symbol=Methods.charToNum('3');
+        System.out.println("Результат преобразования числа '3': " + symbol);
     }
 }
