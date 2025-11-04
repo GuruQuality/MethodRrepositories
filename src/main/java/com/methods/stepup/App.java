@@ -67,6 +67,6 @@ public class App {
         Methods.lastNumbersSum();
         System.out.println();
         */
-        Chapper2Lesson10.run();
+        Chapper2Lesson11.run();
     }
 }
