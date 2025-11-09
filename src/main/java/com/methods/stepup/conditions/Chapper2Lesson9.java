@@ -1,4 +1,4 @@
-package com.methods.stepup;
+package com.methods.stepup.conditions;
 public class Chapper2Lesson9 {
     public static void run() {
         //Проверка true, если одно из

@@ -1,4 +1,4 @@
-package com.methods.stepup;
+package com.methods.stepup.conditions;
 
 public class Chapper2Lesson3 {
     public static void run() {

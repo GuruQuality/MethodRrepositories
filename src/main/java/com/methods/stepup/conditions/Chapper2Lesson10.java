@@ -1,4 +1,4 @@
-package com.methods.stepup;
+package com.methods.stepup.conditions;
 public class Chapper2Lesson10 {
     public static void run() {
         //10 AgeChecker
