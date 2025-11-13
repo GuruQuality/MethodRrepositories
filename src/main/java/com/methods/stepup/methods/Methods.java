@@ -1,8 +1,4 @@
-package com.methods.stepup;
-
-import javax.xml.transform.Source;
-
-import static java.lang.Integer.sum;
+package com.methods.stepup.methods;
 
 public class Methods {
     public static boolean isLowerCase(char ch) {

@@ -1,4 +1,4 @@
-package com.methods.stepup;
+package com.methods.stepup.cycle;
 
 import java.io.File;
 import java.util.Scanner;

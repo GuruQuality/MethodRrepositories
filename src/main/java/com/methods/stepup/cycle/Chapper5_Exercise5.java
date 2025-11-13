@@ -1,4 +1,4 @@
-package com.methods.stepup;
+package com.methods.stepup.cycle;
 
 public class Chapper5_Exercise5 {
     public static void start() {
