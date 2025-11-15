@@ -1,9 +1,9 @@
 package com.methods.stepup;
 
-import com.methods.stepup.array.Chapper5_Part2_Array_Exercise7;
+import com.methods.stepup.array.Chapper5_Part2_Array_Exercise8;
 
 public class App {
     public static void main(String[] args) {
-        Chapper5_Part2_Array_Exercise7.start();
+        Chapper5_Part2_Array_Exercise8.start();
     }
 }
