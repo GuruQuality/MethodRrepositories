@@ -12,7 +12,7 @@ public class Chapper5_Part2_Array_Exercise8 {
         System.out.println("результат: " + Arrays.toString(result));
     }
 
-    //8 Реверс в новом массиве
+    //8 Массив с д-мя элементами двух массивов
     public static int[] concat(int[] arr1, int[] arr2) {
         int newArray[] = new int [arr1.length+arr2.length];
         for (int i = 0; i < arr1.length; i++) {
@@ -23,11 +23,4 @@ public class Chapper5_Part2_Array_Exercise8 {
         }
         return newArray;
     }
-    //Необходимо реализовать метод таким образом, чтобы
-    //он возвращал новый массив, в котором сначала идут элементы первого массива (arr1), а затем второго (arr2).
-    //
-    //Пример:
-    //arr1=[1,2,3]
-    //arr2=[7,8,9]
-    //результат: [1,2,3,7,8,9]
 }
