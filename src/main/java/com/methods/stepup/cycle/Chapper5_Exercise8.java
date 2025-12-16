@@ -15,7 +15,9 @@ public class Chapper5_Exercise8 {
             for (int j = 1; j <= row; j++) {//строки
                 System.out.print("*");
             }
-            System.out.println("");
+            if (i < x) {
+                System.out.println();
+            }
             row += 1;
         }
     }
