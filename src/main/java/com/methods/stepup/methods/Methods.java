@@ -82,17 +82,19 @@ public class Methods {
 
     //Проверка остатка от деления
     public static boolean isDivisor(int a, int b) {
-        return a % b == 0;//Проверяем остаток от деления
+        return a % b == 0 || b % a == 0;//Проверяем остаток от деления
     }
 
     // Проверка равности трех чисел
     public static boolean isEqual(int a, int b, int c) {
         return a == b && a == c;
     }
+
     // Складываем оастатки от деленения 2-х чисел
     public static int lastNumSum(int a, int b) {
         return (a % 10) + (b % 10);
     }
+
     //Складывание остатков деления массива чисел
     public static void lastNumbersSum() {
         int[] numbers = {5, 11, 123, 14, 1};
@@ -108,9 +110,10 @@ public class Methods {
         System.out.println("Итог " + sum);
 
     }
+
     //Вычесление модуля
-    public static int abs(int x){
-        return x<0 ? x*-1 : x;
+    public static int abs(int x) {
+        return x < 0 ? x * -1 : x;
     }
 }
 
