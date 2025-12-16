@@ -3,7 +3,7 @@ package com.methods.stepup.cycle;
 public class Chapper5_Exercise9 {
     public static void start() {
         //Циклы #8 Левый треугольник.
-        int x = 3;
+        int x = 4;
         System.out.println("x = " + x + "\nрезультат: ");
         Chapper5_Exercise9.rightTriangle(x);
     }
@@ -16,9 +16,11 @@ public class Chapper5_Exercise9 {
                 System.out.print(" ");
             }
             for (int j = 1; j <= i; j++) {//строки
-                System.out.print(" *");
+                System.out.print("*");
             }
-            System.out.println("");
+            if (i < x) {
+                System.out.println("");
+            }
             row += 1;
         }
     }
