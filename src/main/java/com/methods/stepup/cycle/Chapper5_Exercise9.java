@@ -10,7 +10,6 @@ public class Chapper5_Exercise9 {
 
     //Циклы #8 Левый треугольник.
     public static void rightTriangle(int x) {
-        int row = 1;
         for (int i = 1; i <= x; i++) {//ряд
             for (int j = 1; j <= x - i; j++) {//пробелы
                 System.out.print(" ");
@@ -19,9 +18,8 @@ public class Chapper5_Exercise9 {
                 System.out.print("*");
             }
             if (i < x) {
-                System.out.println("");
+                System.out.println();
             }
-            row += 1;
         }
     }
 }
