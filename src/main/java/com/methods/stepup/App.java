@@ -1,10 +1,9 @@
 package com.methods.stepup;
 
-import com.methods.stepup.cycle.Chapper5_Exercise9;
-import com.methods.stepup.methods.Methods;
+import com.methods.stepup.conditions.Chapper2Lesson5;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(Methods.isDivisor(3,6));
+        Chapper2Lesson5.run();
     }
 }
