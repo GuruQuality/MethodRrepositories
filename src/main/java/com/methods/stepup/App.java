@@ -1,9 +1,9 @@
 package com.methods.stepup;
 
-import com.methods.stepup.conditions.Chapper2Lesson12;
+import com.methods.stepup.cycle.Chapper5_Exercise8;
 
 public class App {
     public static void main(String[] args) {
-        Chapper2Lesson12.printDays("вторник");
+        Chapper5_Exercise8.start();
     }
 }
