@@ -1,35 +1,27 @@
 package com.methods.stepup.conditions;
 
 public class Chapper2Lesson12 {
-    public static void run() {
-        //DaysWeeks
-        String x = "среда";
-        System.out.println(" x = " + x + "\nрезультат: " + Chapper2Lesson12.printDays(x));
-    }
-
     //DaysWeeks
-    public static String printDays(String x) {
-        String result = "";
+    public static void printDays(String x) {
         switch (x) {
             case "понедельник":
-                result += "\nпонедельник";
+                System.out.println("понедельник");
             case "вторник":
-                result += "\nвторник";
+                System.out.println("вторник");
             case "среда":
-                result += "\nсреда";
+                System.out.println("среда");
             case "четверг":
-                result += "\nчетверг";
+                System.out.println("четверг");
             case "пятница":
-                result += "\nпятница";
+                System.out.println("пятница");
             case "суббота":
-                result += "\nсуббота";
+                System.out.println("суббота");
             case "воскресенье":
-                result += "\nвоскресенье";
+                System.out.println("воскресенье");
                 break;
             default:
-                result = "\nэто не день недели";
+                System.out.println("это не день недели");
         }
-        return result;
     }
 }
 
